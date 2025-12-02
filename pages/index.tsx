@@ -1,6 +1,5 @@
-// pages/index.tsx
-import { Home } from './home';
+import App from '../App';
 
-export default function Index() {
-  return <Home onNavigate={() => {}} />;
+export default function IndexPage() {
+  return <App />;
 }
